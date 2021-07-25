@@ -2,7 +2,7 @@
 
 A responsive e-commerce website using HTML, CSS, and Javascript.
 
-## Preview: 
+## Preview: https://sairamnomula.github.io/e-commerce-website/
 ## Screenshot:
 ![NRC Stores](https://user-images.githubusercontent.com/78247889/126875405-4545bd00-1252-4b6d-b49f-24298fb46045.png)
 ![Mobileview](https://user-images.githubusercontent.com/78247889/126875464-9d093353-4356-4308-aea2-a520572da395.png)
