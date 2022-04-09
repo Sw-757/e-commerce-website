@@ -6,7 +6,7 @@ self.addEventListener('install' , (event)=>{
         Cache.addAll([
            'https://sw-757.github.io/e-commerce-website/',
            'https://sw-757.github.io/e-commerce-website/css/styles.css',
-           'https://sw-757.github.io/e-commerce-website/js/app.js',
+           'https://sw-757.github.io/e-commerce-website/Js/app.js',
            'https://sw-757.github.io/e-commerce-website/index.html'
  
         ]).catch((error)=>{
