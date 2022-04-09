@@ -594,5 +594,12 @@
     <!-- GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <script src="./Js/app.js"></script>
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+                 .register('/sw.js')
+                 .then(function() { console.log("Service Worker Registered"); });
+      }
+      </script>
 </body>
 </html>
