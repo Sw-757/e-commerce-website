@@ -1,1 +1,21 @@
 
+{
+  "name": "eShopper",
+  "short_name": "Shopper",
+  "description": "Shopper",
+  "orientation": "portrait",
+
+  "start_url": "https://sw-757.github.io/e-commerce-website/",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "#fafafa",
+  "gcm_sender_id": "<YOUR PROJECT NO>",
+    "icons": [
+    {
+      "src": "logoicon-192x192.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
