@@ -37,6 +37,16 @@ self.addEventListener('fetch', (event) => {
   );
 });
 
+function askForNPerm() {
+  Notification.requestPermission(function(result) {
+    console.log("User choice", result);
+    if (result !== "granted") {
+      console.log("No notification permission granted!");
+    } else {
+      configurePushSub();// Write your custom function that pushes your message
+    }
+  });
+}
 
 self.addEventListener('push', e=> {
 console.log('push', e);
